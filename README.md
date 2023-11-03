@@ -13,3 +13,8 @@ Rose quartz: #B2A3B5
 
 ## CSS
 .img -> where you can adjust image size
+
+## Updates to Webpage
+- updated the colors throughout the webpage. Used the color pallet displated above.
+- added link to the Rock's Twitter.
+- added a section for my interests. Displays the sports I enjoy playing and teams I support.
