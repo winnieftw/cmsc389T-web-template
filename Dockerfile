@@ -15,9 +15,12 @@ RUN mkdir -p /usr/src/app/node_modules && chown -R node:node /usr/src/app
 WORKDIR /usr/src/app
 
 # Copy package.json and package-lock.json to the working directory
-COPY package*.json ./
-COPY app.js ./
-COPY index.html ./
+# COPY package*.json ./
+# COPY app.js ./
+# COPY index.html ./
+# COPY ./css/styles.css ./css/
+COPY . /usr/src/app/
+# COPY . .
 
 USER node 
 
